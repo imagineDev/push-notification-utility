@@ -62,4 +62,4 @@ Note: Replace <YOUR OAUTH ACCESS TOKEN> in headers and <YOUR CLIENT DEVICE TOKEN
 
 -----
 By: Sahil Sharma
-( sahil.sharma@airtel.com )
+( sahilsharma93@gmail.com )
