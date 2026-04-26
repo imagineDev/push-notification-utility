@@ -26,7 +26,7 @@
 					"raw": "{\n  \"message\": {\n    \"token\": \"<CLIENT_ACCESS_TOKEN_HERE>\",\n    \"apns\": {\n      \"payload\": {\n        \"aps\": {\n          \"alert\": {\n            \"title\": \"Task Assigned\",\n            \"body\": \"A new task has been assigned to you\"\n          },\n          \"badge\": 1,\n          \"sound\": \"notificationRinger.caf\"\n        }\n      }\n    },\n    \"data\": {\n      \"title\": \"Task Assigned USER\",\n      \"body\": \"A new task has been assigned to you\",\n      \"createdDateTime\": \"2025-12-09T10:42:28.685\",\n      \"notificationId\": \"92138756\",\n      \"notificationTag\": \"new_Task\",\n      \"android_notification_channel\": \"notificationRinger\",\n      \"viewType\": \"landingPageV2\",\n      \"viewActionType\": \"landingPageV2\",\n      \"value\": \"https://example.com/testing/notifcationringer\",\n      \"ringtoneType\": \"default\",\n      \"taskId\": \"1537971\"\n    }\n  }\n}"
 				},
 				"url": {
-					"raw": "https://fcm.googleapis.com/v1/projects/airtelworks-4d3e4/messages:send",
+					"raw": "https://fcm.googleapis.com/v1/projects/<YOUR_FCM_PROJECT_ID>/messages:send",
 					"protocol": "https",
 					"host": [
 						"fcm",
@@ -36,7 +36,7 @@
 					"path": [
 						"v1",
 						"projects",
-						"airtelworks-4d3e4",
+						"<YOUR_FCM_PROJECT_ID>",
 						"messages:send"
 					]
 				}
